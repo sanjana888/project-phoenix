@@ -1,3 +1,4 @@
 function calculateTotal(amount) {
-    return amount * 1.18;
+    const taxed = amount * 1.18;
+    return taxed - 100;
 }
